@@ -1,3 +1,7 @@
-﻿public abstract class Task : RootChild
+﻿using UnityEngine;
+using System.Collections;
+
+public abstract class Task : RootChild
 {
+   
 }

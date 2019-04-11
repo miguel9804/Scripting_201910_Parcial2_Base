@@ -7,9 +7,17 @@ public class RunBT : State
 
     public override void Execute()
     {
-        if (btRoot != null)
+        /*player = GameObject.FindGameObjectWithTag("Player");
+        float dis = Vector3.Distance(player.transform.position, transform.position);
+        if (dis < ActState)
         {
-            btRoot.Execute();
-        }
+            if (btRoot != null)
+            {
+
+                btRoot.Execute();
+            }
+            
+        }*/
+        
     }
 }

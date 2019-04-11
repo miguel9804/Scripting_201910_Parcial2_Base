@@ -4,6 +4,23 @@ public abstract class State : MonoBehaviour
 {
     [SerializeField]
     private State nextState;
+    private float warningState = 20f;
+    private float actState=12f;
+    protected GameObject player;
+
+    protected float WarningState
+    {
+        get
+        {
+            return warningState;
+        }
+    }
+    protected float ActState {
+        get
+        {
+            return actState;
+        }
+    }
 
     public abstract void Execute();
 
@@ -24,5 +41,9 @@ public abstract class State : MonoBehaviour
         {
             Execute();
         }
+    }
+    private void Update()
+    {
+        Toggle(true);
     }
 }

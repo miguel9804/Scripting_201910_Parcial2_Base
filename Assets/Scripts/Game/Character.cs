@@ -47,7 +47,7 @@ public abstract class Character : MonoBehaviour
         HP = maxHP;
     }
 
-    protected void SpawnBullet()
+    public void SpawnBullet()
     {
         if (bullet != null && bulletSpawnPosition != null)
         {

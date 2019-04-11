@@ -16,4 +16,8 @@ public class Root : Node
 
         return result;
     }
+    private void Update()
+    {
+        Execute();
+    }
 }

@@ -25,7 +25,7 @@ public class Bullet : MonoBehaviour
     private void Awake()
     {
         myRigidbody = GetComponent<Rigidbody>();
-        Invoke("DestroyObject", 10F);
+        Invoke("DestroyObject", 5F);
     }
 
     private void DestroyObject()
@@ -47,6 +47,17 @@ public class Bullet : MonoBehaviour
             if (character != null && instigator != character)
             {
                 character.ModifyHP(damage * -1);
+                Destroy(gameObject);
+            }
+        }
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Character character = collision.gameObject.GetComponent<Character>();
+
+            if (character != null && instigator != character)
+            {
+                character.ModifyHP(damage * -1);
+                Destroy(gameObject);
             }
         }
 
