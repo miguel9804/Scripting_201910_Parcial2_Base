@@ -1,0 +1,12 @@
+feedback
+
+Componente Práctico (1.8 / 5.0)
+* La entrega se hizo mal. Al intentar poner la carpeta de Scripts de la entrega en su ruta correcta en el proyecto, se corrompe y se pierden referencias de scripts, por lo que no puedo probar la implementación.
+* El readme explica adecuadamente la estrategia de implementación, pero no puedo probar que se sostenga con la implementación (0.5 / 1.0)
+* Hay implementación de los nodos de los BT, pero no pasan de logs, por lo que no deben ser funcionales, a excepción de los nodos de movimiento (0.5 / 1.5)
+* Hay implementación de los estados del AI, pero no pasan de logs, por lo que no deben ser funcionales (0.25/ 1.0)
+* Hay código que sugiere que hace las veces de instanciador del AI, pero no puedo verificar que funcione (0.35 / 0.7)
+* Hay código que sugiere implementación del pool de AI, pero no puedo verificar que funcione (0.2 / 0.4)
+* No hay código que sugiera implementación de pool de balas (0.0 / 0.4)
+
+Total: 1.8 / 5.0
