@@ -1,12 +1,20 @@
 feedback
 
-Componente Pr醕tico (1.8 / 5.0)
-* La entrega se hizo mal. Al intentar poner la carpeta de Scripts de la entrega en su ruta correcta en el proyecto, se corrompe y se pierden referencias de scripts, por lo que no puedo probar la implementaci髇.
-* El readme explica adecuadamente la estrategia de implementaci髇, pero no puedo probar que se sostenga con la implementaci髇 (0.5 / 1.0)
-* Hay implementaci髇 de los nodos de los BT, pero no pasan de logs, por lo que no deben ser funcionales, a excepci髇 de los nodos de movimiento (0.5 / 1.5)
-* Hay implementaci髇 de los estados del AI, pero no pasan de logs, por lo que no deben ser funcionales (0.25/ 1.0)
-* Hay c骴igo que sugiere que hace las veces de instanciador del AI, pero no puedo verificar que funcione (0.35 / 0.7)
-* Hay c骴igo que sugiere implementaci髇 del pool de AI, pero no puedo verificar que funcione (0.2 / 0.4)
-* No hay c骴igo que sugiera implementaci髇 de pool de balas (0.0 / 0.4)
+Componente Pr谩ctico (1.8 / 5.0)
+* La entrega se hizo mal. Al intentar poner la carpeta de Scripts de la entrega en su ruta correcta en el proyecto, se corrompe y se pierden referencias de scripts, por lo que no puedo probar la implementaci贸n.
+* El readme explica adecuadamente la estrategia de implementaci贸n, pero no puedo probar que se sostenga con la implementaci贸n (0.5 / 1.0)
+* Hay implementaci贸n de los nodos de los BT, pero no pasan de logs, por lo que no deben ser funcionales, a excepci贸n de los nodos de movimiento (0.5 / 1.5)
+* Hay implementaci贸n de los estados del AI, pero no pasan de logs, por lo que no deben ser funcionales (0.25/ 1.0)
+* Hay c贸digo que sugiere que hace las veces de instanciador del AI, pero no puedo verificar que funcione (0.35 / 0.7)
+* Hay c贸digo que sugiere implementaci贸n del pool de AI, pero no puedo verificar que funcione (0.2 / 0.4)
+* No hay c贸digo que sugiera implementaci贸n de pool de balas (0.0 / 0.4)
 
 Total: 1.8 / 5.0
+************************************************************************************************
+Actualizaci贸n:
+* El pool de balas est谩 implementado y funciona correctamente (0.4 / 0.4)
+* No hay instanciaci贸n de las AI, por tanto no se puede probar que la calificaci贸n anterior sea sujeta de impresiones erradas, por tanto se mantiene la calificaci贸n de los items relacionados con los agentes de AI.
+
+Total: 2.2 / 5.0
+
+
